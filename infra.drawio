@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-07T12:10:03.648Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="xAD27PrRfv1CWAy3WszA" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-07T12:10:52.085Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="SXeD3XNLLCAch-72bWC0" version="20.2.3" type="github">
   <diagram id="dJaCvuqT-7_yOBBMpMTf" name="페이지-1">
     <mxGraphModel dx="4409" dy="2674" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -419,6 +419,20 @@
         </mxCell>
         <mxCell id="wSPPFu7AEnk8W4RW8utJ-112" value="Aurora Read" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.rds_db_instance_read_replica;fillColor=#2E73B8;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="1191" y="-175.5" width="49.5" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="wSPPFu7AEnk8W4RW8utJ-113" value="RDS Cluster" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="-260" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wSPPFu7AEnk8W4RW8utJ-114" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;elbow=vertical;startArrow=block;startFill=1;endFill=1;strokeColor=#545B64;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="wSPPFu7AEnk8W4RW8utJ-12">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="30" y="20" as="sourcePoint" />
+            <mxPoint x="1070" y="-70" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="510" y="110" />
+              <mxPoint x="510" y="-70" />
+              <mxPoint x="1070" y="-70" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
