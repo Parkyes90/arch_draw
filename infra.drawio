@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-07T12:12:52.450Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="doC_eN8UiJOXH2tf1LfN" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-07T12:14:12.803Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="3-SCjYrGa8m-_Fky38of" version="20.2.3" type="github">
   <diagram id="dJaCvuqT-7_yOBBMpMTf" name="페이지-1">
     <mxGraphModel dx="4409" dy="2674" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -446,6 +446,9 @@
               <mxPoint x="510" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="wSPPFu7AEnk8W4RW8utJ-120" value="Scheduled Task&lt;br&gt;" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/SchedulerJobCollection.svg;" vertex="1" parent="1">
+          <mxGeometry x="540" y="-220" width="89.75" height="77.19" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
