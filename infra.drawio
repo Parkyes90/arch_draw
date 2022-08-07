@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-07T11:43:19.271Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="nAmLLpCgL7SvGn9vh2yg" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-07T11:48:19.982Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="I7xod7cR5d0tIXuFkdRf" version="20.2.3" type="github">
   <diagram id="dJaCvuqT-7_yOBBMpMTf" name="페이지-1">
     <mxGraphModel dx="3258" dy="2497" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -39,7 +39,7 @@
         <mxCell id="wSPPFu7AEnk8W4RW8utJ-1" value="ALB&lt;br&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#4D27AA;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.application_load_balancer;" vertex="1" parent="1">
           <mxGeometry x="320" y="440" width="78" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="wSPPFu7AEnk8W4RW8utJ-2" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#60A337;gradientDirection=north;fillColor=#277116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.s3;" vertex="1" parent="1">
+        <mxCell id="wSPPFu7AEnk8W4RW8utJ-2" value="Private S3" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#60A337;gradientDirection=north;fillColor=#277116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.s3;" vertex="1" parent="1">
           <mxGeometry x="560" y="440" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="wSPPFu7AEnk8W4RW8utJ-3" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;elbow=vertical;startArrow=block;startFill=1;endFill=1;strokeColor=#545B64;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="prAeV1eEA8YO_nb2PNf6-4" target="wSPPFu7AEnk8W4RW8utJ-2">
@@ -71,7 +71,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="wSPPFu7AEnk8W4RW8utJ-20" value="zelos-server target group&#xa;" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="198.5" y="50" width="199.5" height="199.5" as="geometry" />
+          <mxGeometry x="160" y="60" width="199.5" height="199.5" as="geometry" />
         </mxCell>
         <mxCell id="wSPPFu7AEnk8W4RW8utJ-12" value="" style="rounded=1;arcSize=10;dashed=1;fillColor=none;gradientColor=none;dashPattern=8 3 1 3;strokeWidth=2;" vertex="1" parent="wSPPFu7AEnk8W4RW8utJ-20">
           <mxGeometry width="199.5" height="199.5" as="geometry" />
@@ -89,7 +89,7 @@
           <mxGeometry x="126.25" y="120.75" width="37" height="48" as="geometry" />
         </mxCell>
         <mxCell id="wSPPFu7AEnk8W4RW8utJ-21" value="zelos-client target group" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="420" y="50" width="199.5" height="199.5" as="geometry" />
+          <mxGeometry x="560" y="50" width="199.5" height="199.5" as="geometry" />
         </mxCell>
         <mxCell id="wSPPFu7AEnk8W4RW8utJ-22" value="" style="rounded=1;arcSize=10;dashed=1;fillColor=none;gradientColor=none;dashPattern=8 3 1 3;strokeWidth=2;" vertex="1" parent="wSPPFu7AEnk8W4RW8utJ-21">
           <mxGeometry width="199.5" height="199.5" as="geometry" />
@@ -110,6 +110,10 @@
           <mxGeometry width="100" relative="1" as="geometry">
             <mxPoint x="360" y="390" as="sourcePoint" />
             <mxPoint x="460" y="390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="359" y="360" />
+              <mxPoint x="680" y="360" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="wSPPFu7AEnk8W4RW8utJ-30" value="p2&lt;br&gt;/*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wSPPFu7AEnk8W4RW8utJ-29">
@@ -118,7 +122,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="wSPPFu7AEnk8W4RW8utJ-31" value="zelos-flower target group&#xa;" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="-40" y="50" width="199.5" height="199.5" as="geometry" />
+          <mxGeometry x="-210" y="50" width="199.5" height="199.5" as="geometry" />
         </mxCell>
         <mxCell id="wSPPFu7AEnk8W4RW8utJ-32" value="" style="rounded=1;arcSize=10;dashed=1;fillColor=none;gradientColor=none;dashPattern=8 3 1 3;strokeWidth=2;" vertex="1" parent="wSPPFu7AEnk8W4RW8utJ-31">
           <mxGeometry width="199.5" height="199.5" as="geometry" />
@@ -140,7 +144,7 @@
             <mxPoint x="40" y="370" as="sourcePoint" />
             <mxPoint x="140" y="370" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="76" y="480" />
+              <mxPoint x="-94" y="480" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -152,7 +156,7 @@
         <mxCell id="wSPPFu7AEnk8W4RW8utJ-40" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ecs;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="-200" y="-230" width="72" height="67.5" as="geometry" />
         </mxCell>
-        <mxCell id="wSPPFu7AEnk8W4RW8utJ-43" value="zelos-celery-worker-service&#xa;" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="wSPPFu7AEnk8W4RW8utJ-43" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="140" y="-180" width="273.5" height="199.5" as="geometry" />
         </mxCell>
         <mxCell id="wSPPFu7AEnk8W4RW8utJ-44" value="" style="rounded=1;arcSize=10;dashed=1;fillColor=none;gradientColor=none;dashPattern=8 3 1 3;strokeWidth=2;" vertex="1" parent="wSPPFu7AEnk8W4RW8utJ-43">
@@ -205,6 +209,41 @@
               <mxPoint x="744" y="620" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="wSPPFu7AEnk8W4RW8utJ-63" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;elbow=vertical;startArrow=block;startFill=1;endFill=1;strokeColor=#545B64;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="410" y="1047.41" as="sourcePoint" />
+            <mxPoint x="560" y="520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="560" y="1047" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wSPPFu7AEnk8W4RW8utJ-64" value="presigned url&lt;br&gt;/media/*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wSPPFu7AEnk8W4RW8utJ-63">
+          <mxGeometry x="-0.4678" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wSPPFu7AEnk8W4RW8utJ-65" value="zelos-celery-worker-service" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="-210" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wSPPFu7AEnk8W4RW8utJ-67" value="zelos-celery-flower-service" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="8" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wSPPFu7AEnk8W4RW8utJ-68" value="zelos-server-service" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="179.75" y="20" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wSPPFu7AEnk8W4RW8utJ-69" value="zelos-client-service" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="19.5" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wSPPFu7AEnk8W4RW8utJ-70" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;elbow=vertical;startArrow=block;startFill=1;endFill=1;strokeColor=#545B64;rounded=0;exitX=1.007;exitY=0.451;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="wSPPFu7AEnk8W4RW8utJ-12">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="470" y="149.16" as="sourcePoint" />
+            <mxPoint x="570" y="149.16" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wSPPFu7AEnk8W4RW8utJ-72" value="zelos-server.zelos" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="398" y="110" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
