@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-07T11:49:08.921Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="VHLDE_L_Wz5RxV4HIXEM" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-07T11:49:21.784Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="1jL7LB6yEWu0nxfifZ7Z" version="20.2.3" type="github">
   <diagram id="dJaCvuqT-7_yOBBMpMTf" name="페이지-1">
-    <mxGraphModel dx="4270" dy="3051" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2893" dy="2298" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -175,7 +175,7 @@
           <mxGeometry x="189.9995739348371" y="120.75" width="37" height="48" as="geometry" />
         </mxCell>
         <mxCell id="wSPPFu7AEnk8W4RW8utJ-50" value="zelos&amp;nbsp;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
-          <mxGeometry x="220" y="-240" width="100" height="40" as="geometry" />
+          <mxGeometry x="-110.5" y="-220" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="wSPPFu7AEnk8W4RW8utJ-51" value="ECS Cluster" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
           <mxGeometry x="-214" y="-162.5" width="124" height="40" as="geometry" />
