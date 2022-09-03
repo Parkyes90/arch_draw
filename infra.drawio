@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-02T07:11:35.279Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="zQQvj2UrAswcI0NkXQOM" version="20.2.8" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-03T07:05:46.173Z" agent="5.0 (iPhone; CPU iPhone OS 15_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Mobile/15E148 Safari/604.1" etag="AmLQy_PEYTpO-dlvpAh1" version="20.2.8" type="github">
   <diagram id="dJaCvuqT-7_yOBBMpMTf" name="페이지-1">
-    <mxGraphModel dx="2943" dy="1865" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2147" dy="2057" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -462,17 +462,8 @@
         <mxCell id="qip8-bBWomIsxQnUsqqM-2" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#F34482;gradientDirection=north;fillColor=#BC1356;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.cloudwatch_2;" parent="1" vertex="1">
           <mxGeometry x="220" y="-550" width="103.5" height="103.5" as="geometry" />
         </mxCell>
-        <mxCell id="3TcwAQB8QAbLrBEgyqOJ-1" value="" style="sketch=0;html=1;aspect=fixed;strokeColor=none;shadow=0;align=center;verticalAlign=top;fillColor=#3B8DF1;shape=mxgraph.gcp2.search" vertex="1" parent="1">
-          <mxGeometry x="-60" y="700" width="79.2" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="3TcwAQB8QAbLrBEgyqOJ-2" value="GA" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="3TcwAQB8QAbLrBEgyqOJ-2" value="GA" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-50.4" y="778" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="3TcwAQB8QAbLrBEgyqOJ-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="prAeV1eEA8YO_nb2PNf6-4" target="3TcwAQB8QAbLrBEgyqOJ-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-80" y="790" as="sourcePoint" />
-            <mxPoint x="30" y="740" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
