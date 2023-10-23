@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-23T05:54:45.627Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="LlnqXUu4ehW9yX64j85_" version="22.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-23T05:56:42.848Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="q40-XW0EmkPRKG41Z3Mm" version="22.0.6" type="github">
   <diagram name="페이지-1" id="3CVgDvul-JH_stpOPv7v">
-    <mxGraphModel dx="4609" dy="2500" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2074" dy="1125" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -340,6 +340,18 @@
         <mxCell id="gJFJF1jShnuzUCb8Abiy-225" value="ArgoCD Server Pod" style="sketch=0;html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];verticalLabelPosition=bottom;align=center;verticalAlign=top;shape=mxgraph.kubernetes.icon;prIcon=pod" vertex="1" parent="gJFJF1jShnuzUCb8Abiy-203">
           <mxGeometry x="310" y="85" width="50" height="48" as="geometry" />
         </mxCell>
+        <mxCell id="gJFJF1jShnuzUCb8Abiy-227" value="ArgoCD Notifications Controller Deployment" style="fillColor=none;strokeColor=#5A6C86;dashed=1;verticalAlign=top;fontStyle=0;fontColor=#5A6C86;whiteSpace=wrap;html=1;" vertex="1" parent="gJFJF1jShnuzUCb8Abiy-203">
+          <mxGeometry x="480" y="31" width="240" height="224" as="geometry" />
+        </mxCell>
+        <mxCell id="gJFJF1jShnuzUCb8Abiy-228" value="ArgoCD Applicationset Controller Deployment" style="fillColor=none;strokeColor=#5A6C86;dashed=1;verticalAlign=top;fontStyle=0;fontColor=#5A6C86;whiteSpace=wrap;html=1;" vertex="1" parent="gJFJF1jShnuzUCb8Abiy-203">
+          <mxGeometry x="180" y="320" width="240" height="224" as="geometry" />
+        </mxCell>
+        <mxCell id="gJFJF1jShnuzUCb8Abiy-229" value="ArgoCD Dex server Deployment" style="fillColor=none;strokeColor=#5A6C86;dashed=1;verticalAlign=top;fontStyle=0;fontColor=#5A6C86;whiteSpace=wrap;html=1;" vertex="1" parent="gJFJF1jShnuzUCb8Abiy-203">
+          <mxGeometry x="480" y="310" width="240" height="224" as="geometry" />
+        </mxCell>
+        <mxCell id="gJFJF1jShnuzUCb8Abiy-230" value="ArgoCD Redis Deployment" style="fillColor=none;strokeColor=#5A6C86;dashed=1;verticalAlign=top;fontStyle=0;fontColor=#5A6C86;whiteSpace=wrap;html=1;" vertex="1" parent="gJFJF1jShnuzUCb8Abiy-203">
+          <mxGeometry x="770" y="31" width="240" height="224" as="geometry" />
+        </mxCell>
         <mxCell id="gJFJF1jShnuzUCb8Abiy-223" value="ArgoCD Server Service" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#8C4FFF;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.elastic_load_balancing;" vertex="1" parent="gJFJF1jShnuzUCb8Abiy-7">
           <mxGeometry x="450" y="1756" width="48" height="48" as="geometry" />
         </mxCell>
@@ -357,6 +369,9 @@
               <mxPoint x="474" y="1863" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="gJFJF1jShnuzUCb8Abiy-231" value="ArgoCD Repo Server Deployment" style="fillColor=none;strokeColor=#5A6C86;dashed=1;verticalAlign=top;fontStyle=0;fontColor=#5A6C86;whiteSpace=wrap;html=1;" vertex="1" parent="gJFJF1jShnuzUCb8Abiy-7">
+          <mxGeometry x="1150" y="2030" width="240" height="224" as="geometry" />
         </mxCell>
         <mxCell id="gJFJF1jShnuzUCb8Abiy-10" value="Fire Wall" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.generic_firewall;" vertex="1" parent="gJFJF1jShnuzUCb8Abiy-8">
           <mxGeometry x="80" y="69.5" width="83.91" height="71" as="geometry" />
