@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-23T05:56:42.848Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="q40-XW0EmkPRKG41Z3Mm" version="22.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-23T06:07:29.763Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="AszAOpG57FFeq561G81l" version="22.0.6" type="github">
   <diagram name="페이지-1" id="3CVgDvul-JH_stpOPv7v">
-    <mxGraphModel dx="2074" dy="1125" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3771" dy="3214" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -412,6 +412,70 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="80" y="1020" as="sourcePoint" />
             <mxPoint x="130" y="970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gJFJF1jShnuzUCb8Abiy-233" value="Github (Super Clipo Repo)" style="fillColor=none;strokeColor=#5A6C86;dashed=1;verticalAlign=top;fontStyle=0;fontColor=#5A6C86;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="-531" width="960" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="gJFJF1jShnuzUCb8Abiy-234" value="Developer" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.authenticated_user;" vertex="1" parent="1">
+          <mxGeometry x="11" y="-190" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="gJFJF1jShnuzUCb8Abiy-237" value="Purll Request" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/phosphor-bold-vol-3-1/256/git-pull-request-duotone-128.png;imageBackground=#000000;imageBorder=none;" vertex="1" parent="1">
+          <mxGeometry x="490" y="-201" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="gJFJF1jShnuzUCb8Abiy-238" value="CI - Github Action" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.github_code;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="-206" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="gJFJF1jShnuzUCb8Abiy-240" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="gJFJF1jShnuzUCb8Abiy-234" target="gJFJF1jShnuzUCb8Abiy-237">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1030" y="120" as="sourcePoint" />
+            <mxPoint x="1080" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gJFJF1jShnuzUCb8Abiy-241" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="gJFJF1jShnuzUCb8Abiy-237" target="gJFJF1jShnuzUCb8Abiy-238">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1030" y="120" as="sourcePoint" />
+            <mxPoint x="1080" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gJFJF1jShnuzUCb8Abiy-242" value="CD - Github Action" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/miu-black-social-2/60/github-128.png" vertex="1" parent="1">
+          <mxGeometry x="940" y="-215" width="128" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="gJFJF1jShnuzUCb8Abiy-243" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="gJFJF1jShnuzUCb8Abiy-193" target="gJFJF1jShnuzUCb8Abiy-242">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1030" y="120" as="sourcePoint" />
+            <mxPoint x="1080" y="70" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2690" y="770" />
+              <mxPoint x="2680" />
+              <mxPoint x="1830" />
+              <mxPoint x="1004" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gJFJF1jShnuzUCb8Abiy-244" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="gJFJF1jShnuzUCb8Abiy-238" target="gJFJF1jShnuzUCb8Abiy-242">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1380" y="170" as="sourcePoint" />
+            <mxPoint x="1430" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gJFJF1jShnuzUCb8Abiy-245" value="Merge" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/phosphor-regular-vol-3/256/git-merge-128.png;imageBackground=#000033;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="-215" width="128" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="gJFJF1jShnuzUCb8Abiy-246" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="gJFJF1jShnuzUCb8Abiy-242" target="gJFJF1jShnuzUCb8Abiy-245">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1400" y="60" as="sourcePoint" />
+            <mxPoint x="1450" y="10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gJFJF1jShnuzUCb8Abiy-248" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="gJFJF1jShnuzUCb8Abiy-245" target="gJFJF1jShnuzUCb8Abiy-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1480" y="130" as="sourcePoint" />
+            <mxPoint x="1530" y="80" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1224" y="130" />
+              <mxPoint x="560" y="130" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
